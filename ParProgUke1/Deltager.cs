@@ -23,6 +23,7 @@ namespace ParProgUke1
         {
             Console.WriteLine("Hei, mitt navn er " + Name);
             Console.WriteLine($"Jeg er {Age} år gammel");
+            Console.WriteLine("Mitt hår er " + HairColor);
             for (int i = 0; i < Hobbies.Length; i++)
             {
                 Console.WriteLine(Hobbies[i]);
